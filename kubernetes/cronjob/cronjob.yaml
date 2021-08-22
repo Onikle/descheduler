@@ -5,7 +5,7 @@ metadata:
   name: descheduler-cronjob
   namespace: kube-system
 spec:
-  schedule: "*/2 * * * *"
+  schedule: "0 */2 * * *"
   concurrencyPolicy: "Forbid"
   jobTemplate:
     spec:
